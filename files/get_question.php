@@ -13,7 +13,29 @@
 
                 if(!isset($_SESSION['question_IDS_fetched'])){
                     $result = mysqli_query($conn, "Select question_id from question_test_mapping where test_id = '".$test_id."' ");
-                    if (mysqli_num_rows($result) > 0){
+                    if (mysqli_num_rows($result) > 0) {
+                        while($row = mysqli_fetch_assoc($result)) {
+                            $question_ids[] = $row;                   
+                        }
+<?php
+        session_start();
+        include '../database/config.php';
+        if(!isset($_SESSION['test_id'])){
+            header("Location: ../index.php");
+        }
+            $test_id = $_SESSION['test_id'];
+    
+            // Check connection
+            if (!$conn) {
+                die("Connection failed: " . mysqli_connect_error());
+            }else{
+
+                if(!isset($_SESSION['question_IDS_fetched'])){
+                    $result = mysqli_query($conn, "Select question_id from question_test_mapping where test_id = '".$test_id."' ");
+                    } else {
+                        echo json_encode(['error' => 'No questions found for this test.']);
+                        exit();
+                    }
                         while($row = mysqli_fetch_assoc($result)) {
                             $question_ids[] = $row;                   
                         }

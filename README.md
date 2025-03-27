@@ -1,9 +1,9 @@
-<p align="center"><img src="https://github.com/iamrohitsuthar/Quizller/blob/master/images/icons/logo.png"/></p>
+<p align="center"><img src="https://github.com/Santoshverma77/Quizller/blob/master/images/icons/logo.png"/></p>
 
 <p align="center">
-<a href="https://github.com/iamrohitsuthar/Quizller/stargazers"><img src="https://img.shields.io/github/stars/iamrohitsuthar/Quizller"></a>
-<a href="https://github.com/iamrohitsuthar/Quizller/network/members"><img src="https://img.shields.io/github/forks/iamrohitsuthar/Quizller"></a>
-<a href="https://github.com/iamrohitsuthar/Quizller/blob/master/LICENSE"><img src="https://img.shields.io/github/license/iamrohitsuthar/Quizller"></a>
+<a href="https://github.com/Santoshverma77/Quizller/stargazers"><img src="https://img.shields.io/github/stars/Santoshverma77/Quizller"></a>
+<a href="https://github.com/Santoshverma77/Quizller/network/members"><img src="https://img.shields.io/github/forks/Santoshverma77/Quizller"></a>
+<a href="https://github.com/Santoshverma77/Quizller/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Santoshverma77/Quizller"></a>
 </p>
 
 # Quizller - Quiz System
